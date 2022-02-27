@@ -8,6 +8,20 @@
 @import url("./blocks/header/header.css");
 @import url("./blocks/header/__link/header__link.css");
 @import url("./blocks/header/__logo/header__logo.css");
+@import url("./blocks/header/__buttons/header__buttons.css");
+@import url("./blocks/header/__button/header__button.css");
+@import url("./blocks/header/__button/_email/header__button_email.css");
+@import url("./blocks/header/__button/_logout/header__button_logout.css");
+
+@import url("./blocks/sign-form/sign-form.css");
+@import url("./blocks/sign-form/__button/sign-form__button.css");
+@import url("./blocks/sign-form/__input/sign-form__input.css");
+@import url("./blocks/sign-form/__text/sign-form__text.css");
+@import url("./blocks/sign-form/__title/sign-form__title.css");
+
+@import url("./blocks/infotooltip/infotooltip.css");
+@import url("./blocks/infotooltip/__picture/infotooltip__picture.css");
+@import url("./blocks/infotooltip/__text/infotooltip__text.css");
 
 @import url("./blocks/profile/profile.css");
 @import url("./blocks/profile/__avatar/profile__avatar.css");
