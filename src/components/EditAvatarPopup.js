@@ -23,7 +23,7 @@ const EditAvatarPopup = ({isOpen, onClose, onUpdateAvatar}) => {
         onSubmit={handleSubmit}
       >
         <input ref={linkRef} name="avatar" id="user-avatar" className="popup__item popup__item_type_card-name"
-              placeholder="Ссылка на картинку" type="url" noValidate required/>
+              placeholder="Ссылка на картинку" type="url" required/>
         <span id="user-avatar-error" className="popup__item-error"/>
       </PopupWithForm>
       )
